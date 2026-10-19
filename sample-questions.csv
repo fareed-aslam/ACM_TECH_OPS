@@ -1,0 +1,65 @@
+Question,Option A,Option B,Option C,Option D,Correct
+"What is the average time complexity of QuickSort?","$O(n)$","$O(n \log n)$","$O(n^2)$","$O(\log n)$",1
+"Which data structure operates on a Last-In First-Out (LIFO) basis?","Queue","Stack","Linked List","Tree",1
+"In HTTP/2, which mechanism allows sending multiple requests concurrently over a single TCP connection?","Multiplexing","Pipelining","Handshaking","Polling",0
+"What does SQL stand for?","Structured Query Language","Sequential Query Language","Standard Queue Logic","System Quick Link",0
+"Which of the following is an example of an NP-complete problem?","Binary Search","Traveling Salesperson Problem (Decision)","Merge Sort","Dijkstra Algorithm",1
+"What is the worst-case lookup time in a balanced Red-Black Tree with $n$ elements?","$O(1)$","$O(n)$","$O(\log n)$","$O(n \log n)$",2
+"In Git, which command creates and switches to a new branch simultaneously?","git checkout -b <name>","git branch -new <name>","git switch -f <name>","git fork <name>",0
+"What protocol does Traceroute primarily use on Windows systems?","ICMP Echo Request","UDP","ARP","IGMP",0
+"Which TCP flag is used to initiate a three-way handshake?","FIN","ACK","SYN","RST",2
+"What is the space complexity of an in-place Bubble Sort?","$O(1)$","$O(n)$","$O(n^2)$","$O(\log n)$",0
+"In cryptography, which of these is an asymmetric encryption algorithm?","AES-256","RSA","ChaCha20","DES",1
+"What is the primary purpose of DNS?","Encrypt network packets","Resolve domain names to IP addresses","Route traffic across WANs","Assign MAC addresses",1
+"In JavaScript, what is the value of `typeof null`?","'null'","'undefined'","'object'","'boolean'",2
+"Which data structure is typically used to implement Breadth-First Search (BFS)?","Stack","Queue","Heap","Priority Queue",1
+"What does the ACID acronym stand for in databases?","Atomicity, Consistency, Isolation, Durability","Asynchrony, Concurrency, Indexing, Data","Authentication, Cryptography, Integrity, Decryption","Access, Control, Identification, Delegation",0
+"What is the worst-case time complexity of searching in a Hash Table with chaining?","$O(1)$","$O(n)$","$O(\log n)$","$O(n^2)$",1
+"Which port is standard for HTTPS traffic?","80","8080","443","22",2
+"What does CSS flexbox property `justify-content` align items along?","Cross Axis","Main Axis","Z-axis","Baseline",1
+"In React 18, what new hook was introduced to handle concurrent non-urgent state transitions?","useDeferredValue / useTransition","useEffectOnce","useSignal","useConcurrent",0
+"Which CPU scheduling algorithm can lead to the 'convoy effect'?","Round Robin","First-Come First-Served (FCFS)","Shortest Job First","Priority Scheduling",1
+"What is the size of an IPv6 address in bits?","32 bits","64 bits","128 bits","256 bits",2
+"What is the maximum number of nodes at level $k$ (root at level 0) in a binary tree?","$2^k$","$2^{k+1}$","$2^k - 1$","$k^2$",0
+"Which Linux command displays real-time running processes and resource usage?","ps -ef","top / htop","lsblk","df -h",1
+"In Docker, which instruction specifies the base image?","START","BASE","FROM","CONTAINER",2
+"What is the time complexity of building a Binary Heap of $n$ elements?","$O(n)$","$O(n \log n)$","$O(n^2)$","$O(\log n)$",0
+"Which of the following is NOT an HTTP request method?","HEAD","OPTIONS","FETCH","PATCH",2
+"What design pattern ensures a class has only one instance and provides global access to it?","Factory","Observer","Singleton","Decorator",2
+"In relational databases, which normal form eliminates transitive functional dependencies?","1NF","2NF","3NF","BCNF",2
+"What is the main advantage of WebSockets over traditional HTTP polling?","Smaller frame header size","Full-duplex persistent bidirectional connection","Better caching in browsers","Built-in encryption without TLS",1
+"Which of these algorithms finds the shortest path in a graph with non-negative edge weights?","Bellman-Ford","Floyd-Warshall","Dijkstra","Kruskal",2
+"In modern web security, what does CSRF stand for?","Cross-Site Request Forgery","Cascading Server Routing Framework","Cross-Source Resource Filter","Client Side Remote Fetch",0
+"What is the output of `2 + '2' - 1` in JavaScript?","21","3","NaN","23",0
+"Which layer of the OSI model does a standard network Router operate at?","Layer 2 (Data Link)","Layer 3 (Network)","Layer 4 (Transport)","Layer 7 (Application)",1
+"What type of join in SQL returns all records when there is a match in either left or right table?","LEFT JOIN","RIGHT JOIN","FULL OUTER JOIN","INNER JOIN",2
+"In Python, what is the time complexity of checking membership in a standard `set`?","$O(1)$ average","$O(n)$","$O(\log n)$","$O(n^2)$",0
+"Which memory management technique divides memory into fixed-size blocks called frames?","Paging","Segmentation","Compaction","Swapping",0
+"What is the default port for SSH?","21","22","23","25",1
+"In C++, what operator is used to allocate memory on the heap?","malloc","alloc","new","create",2
+"What is the halting problem an example of in computability theory?","NP-Complete","Undecidable","Context-Free","Polynomial Time",1
+"Which HTTP status code indicates 'Too Many Requests' (rate limiting)?","400","403","429","503",2
+"What is the primary function of the ARP protocol?","Resolve IP address to MAC address","Resolve MAC address to IP address","Assign dynamic IP address","Encrypt IP packets",0
+"In machine learning, what does the 'learning rate' hyperparameter control?","Batch size","Step size at each iteration while moving toward a minimum","Number of hidden layers","Regularization strength",1
+"What is the time complexity to insert a node at the beginning of a singly linked list with a known head pointer?","$O(1)$","$O(n)$","$O(\log n)$","$O(n \log n)$",0
+"Which of the following is an immutable data type in Python?","list","dict","tuple","set",2
+"What data structure is used by most relational database management systems for B-tree indexes?","B+ Tree","AVL Tree","Trie","Skip List",0
+"In OAuth 2.0, which grant type is recommended for single-page applications without a backend secret?","Authorization Code Flow with PKCE","Implicit Grant","Resource Owner Password","Client Credentials",0
+"What does the term 'deadlock' mean in concurrent systems?","A thread running indefinitely in an infinite loop","Processes unable to proceed because each holds a resource the other needs","A network timeout during RPC","A memory leak causing crash",1
+"In JavaScript, what mechanism hoists variable and function declarations?","Execution Context Creation Phase","Garbage Collector","Event Loop Call Stack","Microtask Queue",0
+"Which sorting algorithm is guaranteed to be stable and have $O(n \log n)$ worst-case time?","QuickSort","HeapSort","MergeSort","SelectionSort",2
+"What is the purpose of the Same-Origin Policy in browsers?","Prevent scripts from one origin accessing resources from another origin","Speed up DNS resolution","Enforce HTTPS on all websites","Compress HTTP headers",0
+"In Kubernetes, what is the smallest deployable computing unit?","Cluster","Node","Pod","ReplicaSet",2
+"What does TLS stand for?","Transport Layer Security","Transmission Link Standard","Top Level Security","Terminal Link System",0
+"Which data structure is best suited for implementing an LRU (Least Recently Used) cache?","Array and Queue","Hash Map and Doubly Linked List","Binary Search Tree","Stack",1
+"What is the value of $\log_2(1024)$?","8","9","10","12",2
+"In Git, what does `HEAD` refer to?","The initial commit of the repository","The current active branch or commit pointer","The remote repository main branch","The git stash",1
+"Which protocol provides connectionless, unreliable datagram delivery?","TCP","UDP","SCTP","BGP",1
+"What is the Big-$O$ time complexity of finding an element in an unsorted array of size $n$?","$O(1)$","$O(n)$","$O(\log n)$","$O(n^2)$",1
+"In Unix-like systems, which signal corresponds to `SIGKILL`?","Signal 2","Signal 9","Signal 15","Signal 1",1
+"What is the maximum value of a 32-bit signed integer?","$2^{31} - 1$","$2^{32} - 1$","$2^{31}$","$2^{32}$",0
+"Which of these caching algorithms evicts the item that has been used least frequently?","LRU","LFU","FIFO","Random Replacement",1
+"In GraphQL, what operation is used to mutate or write data on the server?","Query","Subscription","Mutation","Patch",2
+"What does CORS stand for in web browsers?","Cross-Origin Resource Sharing","Cascading Origin Resource System","Cross-Online Routing Security","Client Origin Request Stream",0
+"Which algorithm is commonly used for compression in the ZIP file format?","LZW","DEFLATE (LZ77 + Huffman)","Run-Length Encoding","BWT",1
+"In computer architecture, what does RISC stand for?","Reduced Instruction Set Computer","Random Instruction Set Controller","Rapid Integrated System Core","Redundant Instruction System Circuit",0
